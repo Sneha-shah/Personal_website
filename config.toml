@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://Sneha-shah.github.io/"
 languageCode = "en-us"
 title = "Sneha Shah"
 theme = "personal-web"
@@ -76,8 +76,8 @@ pygmentsCodeFences=true
 
 [[menu.main]]
   identifier = "music"
-  name = "Music Portfolio"
-  title = "Music section"
+  name = "Gallery"
+  title = "Gallery"
   url = "/music/"
   weight = -110
 

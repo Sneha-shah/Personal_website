@@ -1,6 +1,18 @@
 ---
-title: MUSIC
-description: 'Music Section'
+title: GALLERY
+description: 'Gallery'
 ---
 
-You'll add here a general introduction of your portfolio page.
+
+{{< figure src="/music/1.jpg" >}}
+{{< figure src="/music/2.jpg" >}}
+{{< figure src="/music/3.jpg" >}}
+{{< figure src="/music/4.jpg" >}}
+{{< figure src="/music/5.jpg" >}}
+{{< figure src="/music/6.jpg" >}}
+{{< figure src="/music/7.jpg" >}}
+{{< figure src="/music/8.jpg" >}}
+{{< figure src="/music/9.jpg" >}}
+{{< figure src="/music/10.jpg" >}}
+{{< figure src="/music/11.jpg" >}}
+{{< figure src="/music/12.jpg" >}}
