@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photoshop on Sneha Shah</title>
+    <link>http://localhost:1313/designs/photoshop/</link>
+    <description>Recent content in Photoshop on Sneha Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Sneha Shah</copyright>
+    <lastBuildDate>Sun, 02 May 2021 19:47:09 +0200</lastBuildDate><atom:link href="http://localhost:1313/designs/photoshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jaw Volume Calculation</title>
+      <link>http://localhost:1313/portfolio/jaw-volume-calculation/</link>
+      <pubDate>Sun, 02 May 2021 19:47:09 +0200</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/jaw-volume-calculation/</guid>
+      <description>Wrote a program that uses image processing techniques to identify the volume of a human jaw from a 3D medical scan. This is part of a dental research on volume expansion of a jaw after using arch expansion treatment.</description>
+    </item>
+    
+  </channel>
+</rss>
