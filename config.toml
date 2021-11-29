@@ -1,4 +1,4 @@
-baseURL = "https://Sneha-shah.github.io/"
+baseURL = "https://sneha-shah.github.io/"
 languageCode = "en-us"
 title = "Sneha Shah"
 theme = "personal-web"
@@ -41,9 +41,9 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '/images/sidebar.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  backgroundImage = '/images/sidebar.jpg' # header background image 
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "/images/sneha-shah.jpg" # - default "/images/edna-west.jpg"
+  logo = "/images/sneha-shah.jpg"
 [params.assets]
   favicon = ""
   customCSS = ""

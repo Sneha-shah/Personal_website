@@ -12,7 +12,7 @@ You can use it as a base for your website.
 <!--more-->
 
 ```TOML
-baseURL = "https://example.com/"
+baseURL = "https://sneha-shah.github.io/"
 languageCode = "en-us"
 title = "Edna West"
 theme = "personal-web"

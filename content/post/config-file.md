@@ -12,11 +12,11 @@ You can use it as a base for your website.
 <!--more-->
 
 ```TOML
-baseURL = "https://example.com/"
+baseURL = "https://sneha-shah.github.io/"
 languageCode = "en-us"
-title = "Edna West"
+title = "Sneha Shah"
 theme = "personal-web"
-copyright="© Edna West"
+copyright="© Sneha Shah"
 googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
@@ -24,8 +24,8 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm Edna :wave:"
-  sub = "I'm a Web Developer and Entrepreneur"
+  main = "Hi, I'm Sneha :wave:"
+  sub = "I'm an Engineer and Musician"
 
 [params.main]
   latestPublishHeader = "My Latest Project"
