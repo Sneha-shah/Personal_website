@@ -6,7 +6,7 @@ jobDate: 2015
 work: [software, game]
 techs: [python]
 #designs: [Photoshop]
-thumbnail: 2048/main.jpg
+thumbnail: 2048/2048_2.png
 projectUrl: https://github.com/Sneha-shah/2048-game
 
 ---
