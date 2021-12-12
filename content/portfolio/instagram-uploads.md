@@ -1,6 +1,6 @@
 ---
 title: "Instagram Uploads"
-date: 2021-05-02T19:47:09+02:00
+date: 2019-01-01T19:47:09+02:00
 draft: false
 
 # post thumb
@@ -17,6 +17,8 @@ tags:
   - "Piano"
   - "Hobby"
   - "Instagram"
+  
+HideDate: true
 
 # post type
 type: "post"

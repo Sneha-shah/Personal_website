@@ -1,7 +1,7 @@
 ---
 title: "Sample Project"
 date: 2021-05-02T19:47:09+02:00
-draft: false
+draft: true
 
 # post thumb
 image: "images/logo.png"

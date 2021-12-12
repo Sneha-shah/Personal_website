@@ -18,19 +18,23 @@ tags:
   - "Piano"
   - "Band"
   - "Performance"
+  
+HideDate: true
 
 # post type
 type: "post"
 ---
 
+### Performances on piano, as part of Music Society and Synchronoise Acapella group
+
 {{< youtube 3xfOj3B21F0 >}}
-Phone recording of Schubert Impromptu Op. 90 No. 2 at Theme Kawai showroom, Bangalore. This piece is being prepared as part of Trinity performer's exam, ATCL.
+##### Phone recording of Schubert Impromptu Op. 90 No. 2 at Theme Kawai showroom, Bangalore. This piece is being prepared as part of Trinity performer's exam, ATCL.
 
 {{< youtube lXnmOIKVCyc >}}
-Most popular youtube upload on Synchronoise youtube page: acapella cover of Udd Gaye by Ritviz
+##### Most popular youtube upload on Synchronoise youtube page: acapella cover of Udd Gaye by Ritviz
 
 {{< youtube 9fcPc-Uc2k4 >}}
-Recreation of the Postmodern Jukebox arrangement of Creep by Radiohead. Recorded as part of the Music Society
+##### Recreation of the Postmodern Jukebox arrangement of Creep by Radiohead. Recorded as part of the Music Society
 
 {{< youtube EFy0g4wuGkY >}}
 Phone recording of the song Comptine d'un autre été by Yann Tiersen from the movie Amelie.

@@ -11,11 +11,13 @@ description: "Automatic Classification of Bird Calls, Voice Scrambler and Unscra
 
 # taxonomies
 categories: 
-  - "MATLAB"
+  - "Signal Processing"
 tags:
   - "MATLAB"
   - "DSP"
   - "Signal Processing"
+  
+HideDate: true
 
 # post type
 type: "post"

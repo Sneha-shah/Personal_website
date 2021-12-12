@@ -4,7 +4,7 @@
 <section class="section-sm">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 featured-post-slider">
+      <div class="col-10">
         <!-- slider item -->
         {{ range ( where .Site.RegularPages "Type" "featured" )}}
         <article class="card featured-post">
@@ -14,17 +14,19 @@
               <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
               {{ end }}
             </div>
-            <div class="col-md-6 offset-md-1">
+            <div class="col-md-7">
               <div class="card-body">
+                <div class="offset-md-1">
+                  <a href="{{ .Permalink }}"
+                    class="h1 font-weight-bold d-block text-dark mb-4 card-title">{{ .Title | markdownify }}</a>
+                </div>
                 <div class="mb-3 post-meta">
-                  <span>By {{ .Site.Params.Author }}</span>
+                  <!-- <span>By {{ .Site.Params.Author }}</span> -->
                   {{ if not .Params.HideDate }}
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
+                  <!-- <span class="border-bottom border-primary px-2 mx-1"></span> -->
                   <span>{{ .PublishDate.Format "02 January 2006" }}</span>
                   {{ end }}
                 </div>
-                <a href="{{ .Permalink }}"
-                  class="h1 font-weight-bold d-block text-dark mb-4 card-title">{{ .Title | markdownify }}</a>
                 <p class="card-text">{{.Summary}}...</p>
               </div>
             </div>
@@ -38,8 +40,8 @@
 <!-- /featured post -->
 
 <!-- recent post -->
-<section>
-  <div class="container">
+<!-- <section> -->
+  <!-- <div class="container">
     <div class="row">
       {{ range first 3 (where .Site.RegularPages "Type" "post")}}
       <div class="col-lg-4 small-post-border">
@@ -63,7 +65,7 @@
       {{ end }}
     </div>
   </div>
-</section>
+</section> -->
 <!-- /recent post -->
 
 <!-- blog post -->
@@ -86,10 +88,10 @@
                 {{ end }}
                 <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
                 <div class="mb-3 post-meta">
-                  <span>By {{ .Site.Params.Author }}</span>
+                  <!-- <span>By {{ .Site.Params.Author }}</span> -->
                   {{ if not .Params.HideDate }}
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+                  <!-- <span class="border-bottom border-primary px-2 mx-1"></span> -->
+                  <span>{{ .PublishDate.Format "January 2006" }}</span>
                   {{ end }}
                 </div>
                 <p class="card-text">{{ .Summary }}</p>
@@ -105,7 +107,7 @@
       <!-- /sidebar -->
 
       <!-- pagination -->
-      <div class="col-12 mt-5">
+      <div class="col-12 mt-3">
         {{ template "_internal/pagination.html" . }}
       </div>
     </div>

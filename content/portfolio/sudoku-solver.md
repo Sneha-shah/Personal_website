@@ -11,7 +11,7 @@ description: "Sudoku Solver GUI written in python https://github.com/Sneha-shah/
 
 # taxonomies
 categories: 
-  - "Game"
+  - "Python"
 tags:
   - "Python"
   - "Game"
