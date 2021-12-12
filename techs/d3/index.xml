@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>D3 on Sneha Shah</title><link>https://sneha-shah.github.io/techs/d3/</link><description>Recent content in D3 on Sneha Shah</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© Sneha Shah</copyright><lastBuildDate>Sun, 02 May 2021 19:47:09 +0200</lastBuildDate><atom:link href="https://sneha-shah.github.io/techs/d3/index.xml" rel="self" type="application/rss+xml"/><item><title>Instagram Uploads</title><link>https://sneha-shah.github.io/portfolio/instagram-uploads/</link><pubDate>Sun, 02 May 2021 19:47:09 +0200</pubDate><guid>https://sneha-shah.github.io/portfolio/instagram-uploads/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D3 on Sneha Shah</title>
+    <link>http://localhost:1313/techs/d3/</link>
+    <description>Recent content in D3 on Sneha Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Sneha Shah</copyright>
+    <lastBuildDate>Sun, 02 May 2021 19:47:09 +0200</lastBuildDate><atom:link href="http://localhost:1313/techs/d3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instagram Uploads</title>
+      <link>http://localhost:1313/portfolio/instagram-uploads/</link>
+      <pubDate>Sun, 02 May 2021 19:47:09 +0200</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/instagram-uploads/</guid>
+      <description>                 </description>
+    </item>
+    
+  </channel>
+</rss>
