@@ -1,117 +1,141 @@
+######################## default configuration ####################
 baseURL = "https://sneha-shah.github.io/"
 languageCode = "en-us"
-title = "Sneha Shah"
-theme = "personal-web"
-copyright="© Sneha Shah"
-googleAnalytics = ""
-enableEmoji=true
-enableRobotsTXT=true
-pygmentsUseClasses=true
-pygmentsCodeFences=true
+title = "Sneha Shah | Portfolio"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 6
+disqusShortname = ""
 
-[params.intro]
-  main = "Hi, I'm Sneha :wave:"
-  sub = "I'm an Engineer and Musician"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
-[params.main]
-  latestPublishHeader = "My Latest Project"
+############################# Plugins ##############################
+[params.plugins]
 
-[taxonomies]
-  design = "designs"
-  tech = "techs"
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
 
-[blackfriday]
-  hrefTargetBlank = true
-
-[params]
-  breadcrumb = true
-  accentColor = "#FD3519"
-  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
-
-[params.notFound]
-  gopher = "/images/gopher.png" # checkout https://gopherize.me/
-  h1 = 'Bummer!'
-  p = "It seems that this page doesn't exist."
-
-[params.sections]
-  # Define how your sections will be called
-  # when automatically pulled. For instance in the 404 page
-  post = "article"
-  music = "project"
-  portfolio = "project"
-
-[params.sidebar]
-  backgroundImage = '/images/sidebar.jpg' # header background image 
-  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "/images/sneha-shah.jpg"
-[params.assets]
-  favicon = ""
-  customCSS = ""
-
-[params.social]
-  github = "https://github.com/"
-  #twitter = "https://twitter.com/"
-  linkedin = "https://www.linkedin.com/in/"
-  #medium = "https://medium.com/"
-  #codepen = "https://codepen.io/"
-  #facebook = "https://www.facebook.com/"
-  #youtube = "https://www.youtube.com/"
-  instagram = "https://www.instagram.com/"
-  #gitlab = "https://gitlab.com/"
-  #keybase = "https://keybase.io/"
-
-[params.contact]
-  email = "shahsnehakk@gmail.com"
-  text= "shahsnehakk@gmail.com" # text of the contact link in the sidebar. If email params.contact.email is defined
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
 
 
+############################## navigation ###############################
 [menu]
 
-[[menu.main]]
-  identifier = "about"
+  # main menu
+  [[menu.main]]
   name = "About"
-  title = "About section"
-  url = "/about/"
-  weight = -120
+  URL = "about"
+  weight = 1
 
-[[menu.main]]
-  identifier = "music"
-  name = "Gallery"
-  title = "Gallery"
-  url = "/music/"
-  weight = -110
+  [[menu.main]]
+  name = "Projects"
+  URL = "blog"
+  weight = 2
 
-[[menu.main]]
-  identifier = "portfolio"
-  name = "Technical Portfolio"
-  title = "Portfolio section"
-  url = "/portfolio/"
-  weight = -110
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
 
-[[menu.main]]
-  identifier = "blog"
+  # footer menu
+  [[menu.footer]]
+  name = "About"
+  URL = "about"
+  weight = 1
+
+  [[menu.footer]]
   name = "Post"
-  title = "Blog section"
-  url = "/post/"
-  weight = -100
+  URL = "blog"
+  weight = 2
 
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
 
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = true
-    respectDoNotTrack = true
-    useSessionStorage = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = false
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "Sneha's Portfolio"
+author = "Sneha"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# Contact Information
+# mobile = "+91 8867091239"
+email = "shahsnehakk@gmail.com"
+location = "Bangalore, India"
+# copyright
+copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+[params.newsletter]
+enable = false
+title = "Join Our Newsletter"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+
+############################# social site ########################
+# [[params.social]]
+# title = "facebook"
+# icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+# link = "#"
+#
+# [[params.social]]
+# title = "twitter"
+# icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+# link = "#"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://www.instagram.com/thatssnehaforyou/"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/Sneha-shah/"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/sneha-shah-427633161/"

@@ -7,7 +7,7 @@ work: [music, piano, band, acapella]
 thumbnail: performances//band.jpg
 ---
 
-{{< youtube ceEf3PQH7F0 >}}
+{{< youtube 3xfOj3B21F0 >}}
 Phone recording of Schubert Impromptu Op. 90 No. 2 at Theme Kawai showroom, Bangalore. This piece is being prepared as part of Trinity performer's exam, ATCL.
 
 {{< youtube lXnmOIKVCyc >}}
@@ -28,7 +28,7 @@ Performance as part of Music Society annual performance. Played the keyboard for
 {{< youtube p4HiUR4e4h4 >}}
 Phone recording of the popular piano song, River Flows Through You by Yiruma.
 
-{{< youtube 5x2nXss-Cw4 >}}
+{{< youtube 7A7AcpCY_sk >}}
 Phone recording of Chopin Fantaisie Impromptu at Theme Kawai showroom, Bangalore. This piece is being prepared as part of Trinity performer's exam, ATCL.
 
 {{< youtube 6gMD8cA03Rk >}}
