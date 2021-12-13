@@ -2,7 +2,7 @@
 <meta charset=utf-8>
 <title>Sneha Shah | Portfolio</title>
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=description content="Sudoku Solver GUI written in python https://github.com/Sneha-shah/sudoku-solve">
+<meta name=description content="Sudoku Solver GUI written in python ">
 <meta name=author content="Sneha">
 <meta name=generator content="Hugo 0.90.1">
 <link rel=stylesheet href=https://sneha-shah.github.io/plugins/bootstrap/bootstrap.min.css>
@@ -73,8 +73,20 @@
 </div>
 <div class="content mb-5">
 <p><img src=../../images/sudoku-solver/main.png alt=image></p>
-<p>GUI sudoku solver that combines manual and backtracking approaches for quicker solving. Uses python and tkinter.
-Working on using image processing to identify numbers on a book using a camera.</p>
+<p>Used python and tkinter to create a GUI sudoku solver that combines manual and backtracking approaches for quicker solving.
+Currently, users have to manually enter given values in the sudoku, and so I am working on using computer vision to identify numbers from a written/printed sudoku using a camera.</p>
+<p>Checkout project on GitHub: <a href=https://github.com/Sneha-shah/sudoku-solver>https://github.com/Sneha-shah/sudoku-solver</a></p>
+<h4 id=approach>Approach</h4>
+<h6 id=manual-approach>Manual Approach:</h6>
+<p>This solves the sudoku using methods similar to human solving. It checks every column, row, then box for missing numbers and fills it in if there is only one possible option. It failes for difficult sudokus that would require guessing by the solver.</p>
+<h6 id=backtracking-approach>Backtracking Approach:</h6>
+<p>This is a recursive approach to solve a sudoku. It guesses a number for each box and checks at every point if the rules are broken; if so, it backtracks and tries a different number. It is more thorough in the solving process and also identifies if there are multiple possible solutions. However, the time taken for this approach can be quite large.</p>
+<h6 id=combined-approach>Combined Approach:</h6>
+<p>In this program, a combined approach is taken where it solves the sudoku to the maximum possible point with the manual approach. When no more numbers can be added, it shifts to the backtracking approach. This ensures that the solving process takes less time than a purely backtracking approach.</p>
+<p><strong>The program has an option to solve sudoku using any one of the above approaches.</strong></p>
+<p><strong>Terminal interaction can be used to find multiple solutions. At the end of every solution found the recursive count and number of solutions found are displayed on the terminal.</strong></p>
+<p><img src=../../images/sudoku-solver/solved-sudoku.png alt=image>
+<img src=../../images/sudoku-solver/terminal.png alt=image></p>
 </div>
 </div>
 </div>
