@@ -2,6 +2,22 @@
 
 <!-- featured post -->
 <section class="section-sm">
+  <!-- about -->
+  <div class="widget">
+    <div class="offset-md-2 col-md-8">
+      {{ with .Site.GetPage "/about" }}
+      <!-- <h4 class="widget-title">{{ .Title | markdownify }}</h4> -->
+      <!-- {{ if .Params.Image }}
+      <img src="{{ .Params.Image | absURL }}" alt=""
+        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+      {{ end }} -->
+      <p>{{ .Content }}</p>
+      <!-- <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a> -->
+      {{ end }}
+    </div>
+  </div>
+  <!-- /about -->
+  
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-10">

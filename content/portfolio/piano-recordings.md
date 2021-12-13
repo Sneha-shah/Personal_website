@@ -4,7 +4,7 @@ date: 2021-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/performances/piano.jpg"
+image: "images/performances/piano.png"
 
 # meta description
 description: "Performances on piano"
@@ -15,6 +15,7 @@ categories:
 tags:
   - "Music"
   - "Piano"
+  - "Performance"
   - "Recording"
   
 HideDate: true
