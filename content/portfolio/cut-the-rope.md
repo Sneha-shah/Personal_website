@@ -21,6 +21,7 @@ tags:
 # post type
 type: "post"
 ---
+![image](../../images/cut-the-rope/main.png)
 
 Game created in high school for 12th grade Computer Science project. Uses pygame for graphics and pictures from the original cut the rope to create our own game with 3 levels.
 

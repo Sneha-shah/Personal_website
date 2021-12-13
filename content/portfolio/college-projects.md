@@ -22,6 +22,7 @@ HideDate: true
 # post type
 type: "post"
 ---
+![image](../../images/college-projects/BirdCall.jpeg)
 
 Automatic Classification of Bird Calls Jan 2019 – May 2019 Project under Dr. Sarang C Dhongdi
 ■ Studied algorithms that use signal processing techniques to identify bird species from their calls or songs, and compared results with machine learning algorithms for the same.
