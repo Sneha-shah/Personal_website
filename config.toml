@@ -54,10 +54,10 @@ disqusShortname = ""
   URL = "portfolio"
   weight = 2
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
+#  [[menu.main]]
+#  name = "Contact"
+#  URL = "contact"
+#  weight = 3
 
   # footer menu
   [[menu.footer]]

@@ -2,7 +2,7 @@
 
 <section class="section-sm">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row"> -->
       <div class="col-lg-8 mx-auto text-center">
         {{ if .Params.Image }}
         <img src="{{ .Params.Image | absURL }}" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
@@ -12,7 +12,26 @@
           {{ .Content }}
         </div>
       </div>
-    </div>
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="row">
+          <!-- <div class="col-lg-4 small-post-border">
+            <i class="ti-mobile h1 text-primary"></i>
+            <h5 class="font-weight-light my-3">Phone</h5>
+            {{ .Site.Params.mobile }}
+          </div> -->
+          <div class="col-lg-6 small-post-border">
+            <i class="ti-email h1 text-primary"></i>
+            <h5 class="font-weight-light my-3">Email</h5>
+            {{ .Site.Params.email }}
+          </div>
+          <div class="col-lg-6 small-post-border">
+            <i class="ti-location-pin h1 text-primary"></i>
+            <h5 class="font-weight-light my-3">Location</h5>
+            {{ .Site.Params.location | markdownify }}
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
   </div>
 </section>
 
