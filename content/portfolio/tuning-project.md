@@ -135,67 +135,6 @@ Multi Stimuli test with anchor
 * Found simple rule for tuning high partials: Amongst the rules tested, matching the first set of partials scored the highest points in the listening test. 
 * Proposed new method to evaluate tuning: Proposed a beat-based approach that tries to mimic aural tuning, the results of which were confirmed by the listening test
 
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-- Add more images
-- Methods used?
-- Software (MATLAB)
-- Learnings
-- Add some screenshots pls
-- Add a video of me talking about this project
-- Share code on GitHub?
 
 
 

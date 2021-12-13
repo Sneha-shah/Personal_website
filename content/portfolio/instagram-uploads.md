@@ -22,6 +22,8 @@ HideDate: true
 
 # post type
 type: "post"
+
+# {{<audio src="/portfolio/instagram-uploads/ISeeFire.mp3" >}} 
 ---
 
 {{< youtube hihnI_I8IyU >}} 
@@ -38,6 +40,6 @@ type: "post"
 
 {{< youtube TdbXqM0E-vg >}} 
 
-{{<audio src="/portfolio/instagram-uploads/ISeeFire.mp3" >}} 
+
 
 
