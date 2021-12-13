@@ -71,13 +71,166 @@
 <div class="mb-3 post-meta">
 <span>January 2020</span>
 </div>
-<img src=https://sneha-shah.github.io/images/tuning-project/tuning.jpg class="img-fluid w-100 mb-4" alt="Automatic Piano Tuning">
 <div class="content mb-5">
+<p><img src=../../images/tuning-project/tuning.jpg alt=image></p>
 <p>Piano tuning is known to be difficult because the stiffness of piano strings causes the tones produced to be inharmonic. Aural tuning is time consuming and requires the help of a professional. This motivates the question of whether this process can be automated. Attempts at automatic tuning are usually assessed by comparing the Railsback curve of the results with the curve of a professional tuner.</p>
 <p>In this project we determined a simple and reliable rule for tuning the high tones of a piano with the help of a listening test. This rule consists of matching the two tones in an octave interval so that the first partial frequency of the upper tone becomes exactly the same as the second partial frequency of the lower tone. This rule was rated best among four tuning rules that were compared in the test.</p>
 <p>The results found are explained using a beat-based analysis, and are consistent with some previous studies. They are also tested against the existing method of using Railsback curves, and it is shown that comparison using Railsback curves is an unreliable method of assessing different tunings. The findings from this paper can be used to create a complete automatic tuner that could make the process of piano tuning quick and inexpensive.</p>
-<p>For a detailed description of the work done, check out my <a href="https://drive.google.com/file/d/1qywKK0RzuviFrgbEMc5MW3J3WBfjocU_/view?usp=sharing">Bachelor&rsquo;s thesis</a>.</p>
-<p>You can find the paper published on this work <a href=https://www.researchgate.net/publication/339995979_Automatic_Tuning_of_High_Piano_Tones>here</a>.</p>
+<p><strong>For a detailed description of the work done, check out my <a href="https://drive.google.com/file/d/1qywKK0RzuviFrgbEMc5MW3J3WBfjocU_/view?usp=sharing">Bachelor&rsquo;s thesis</a>.</strong></p>
+<p><strong>You can find the paper published on this work <a href=https://www.researchgate.net/publication/339995979_Automatic_Tuning_of_High_Piano_Tones>here</a>.</strong></p>
+<h3 id=ways-to-tune-a-piano>Ways to tune a piano</h3>
+<h5 id=professional-tuner-aural-tuning>Professional Tuner (Aural tuning)</h5>
+<ul>
+<li>This method has been used for centuries, and the art has been perfected over the years</li>
+<li>The complexity of the task means it cannot be done by a layman or even a musician not trained in the field</li>
+</ul>
+<h5 id=computers-automatic-tuning>Computers (Automatic tuning)</h5>
+<ul>
+<li>This is a fairly new idea, which has not been explored to its full potential yet</li>
+<li>Current devices deliver unsatisfactory results and are not widely in use</li>
+</ul>
+<h3 id=why-is-tuning-a-piano-so-difficult>Why is tuning a piano so difficult?</h3>
+<p>Apart from the regular challenges of deciding what intervals to prioritise while tuning an instrument, the piano offers its own challenges.</p>
+<ul>
+<li>Piano strings are inharmonic; the partials of a tone are not exact multiples of the fundamental</li>
+<li>This means that target fundamental frequency of each tone is not fixed</li>
+<li>The strings get detuned with time, and so need to be tuned regularly</li>
+</ul>
+<h3 id=the-method-of-aural-tuning>The method of aural tuning</h3>
+<p>The tuning is based on the equal temperament scale. The process involves listening to different intervals on the piano and counting the beats produced. The target is to minimise the beats, which is done via the a specific process.</p>
+<h5 id=the-process>The process</h5>
+<p><strong>1. Reference note is tuned to some frequency</strong></p>
+<ul>
+<li>usually A4 tuned to 440 Hz</li>
+<li>concert pitches are often 442 or 443 Hz</li>
+</ul>
+<p><strong>2. Reference octave is tuned using this note</strong></p>
+<ul>
+<li>uses many intervals starting from reference note</li>
+<li>octave is near the middle of piano</li>
+<li>used to tune rest of the piano
+(Add picture of reference octave here)</li>
+</ul>
+<p><strong>3. Upper half of the piano tuned using reference octave</strong></p>
+<ul>
+<li>octaves used to tune</li>
+<li>also sometimes use other tests</li>
+</ul>
+<p><strong>4. Lower half of the piano tuned using reference octave</strong></p>
+<ul>
+<li>Uses octaves and some larger intervals
+(Add picture of higher and lower octaves here)</li>
+</ul>
+<h6 id=challenges-of-aural-tuning>Challenges of aural tuning</h6>
+<ul>
+<li>Time consuming and expensive</li>
+<li>Requires a professional or years of training</li>
+</ul>
+<h3 id=automatic-tuning>Automatic Tuning</h3>
+<h5 id=steps>Steps</h5>
+<ul>
+<li>Input: Recorded untuned piano tones</li>
+<li>Intermediate: New fundamental frequencies of tones</li>
+<li>Output: Amount to turn tuning pin for tuned tones</li>
+<li>Action: Turning the tuning pin</li>
+</ul>
+<h5 id=main-challenge>Main challenge</h5>
+<p>Finding new fundamental frequency
+Imitating results of aural tuning</p>
+<h5 id=what-makes-it-hard>What makes it hard</h5>
+<p>Inharmonicity of piano strings
+Subjectivity in aural tuning</p>
+<h3 id=shortcomings-of-previous-studies>Shortcomings of previous studies</h3>
+<h5 id=quality-of-tuning-compared-with-professional-tuner>Quality of tuning compared with professional tuner</h5>
+<ul>
+<li>Visually using Railsback curves</li>
+<li>Calculating deviation of fundamental frequencies</li>
+</ul>
+<h5 id=drawbacks>Drawbacks</h5>
+<ul>
+<li>Subjectivity of professional tuning</li>
+<li>Compounding effect of tuning mistakes</li>
+<li>Not backed by any listening tests</li>
+</ul>
+<h3 id=contribution>Contribution</h3>
+<h5 id=1-high-frequency-tones>1. High Frequency Tones</h5>
+<p>All analysis and results are for high piano tones
+Properties</p>
+<ul>
+<li>Have very high inharmonicity</li>
+<li>Few significant partials</li>
+<li>Fast decay</li>
+<li>Resonance in recording due to absence of damping</li>
+<li>Tuned using octaves</li>
+</ul>
+<h5 id=2-new-evaluation-method>2. New Evaluation Method</h5>
+<p>Beats based analysis
+Analyse beating effects for each octave
+Advantages</p>
+<ul>
+<li>Close to what professional tuners do</li>
+<li>Correlates with listening study</li>
+</ul>
+<h5 id=3-new-set-of-recordings-of-tuned-piano-tones>3. New Set of Recordings of Tuned Piano Tones</h5>
+<p>Tones recorded on a Yamaha Disklavier</p>
+<h5 id=4-listening-study>4. Listening Study</h5>
+<p>To find a simple tuning rule for high tones
+Compare different tuning analyses with results
+4 tuning rules tested near 6th octave
+Multi Stimuli test with anchor
+16 participants
+( Add audio samples here)</p>
+<h3 id=results>Results</h3>
+<h6 id=methods>Methods:</h6>
+<ol>
+<li>Professional tuning (n)</li>
+<li>Geometric mean rule (gm)</li>
+<li>Matching first set of partials (m1)</li>
+<li>Matching second set of partials (m2)</li>
+<li>Matching third set of partials (m3)</li>
+</ol>
+<p>(Add image)</p>
+<h3 id=conclusion>Conclusion</h3>
+<ul>
+<li>Found simple rule for tuning high partials: Amongst the rules tested, matching the first set of partials scored the highest points in the listening test.</li>
+<li>Proposed new method to evaluate tuning: Proposed a beat-based approach that tries to mimic aural tuning, the results of which were confirmed by the listening test</li>
+</ul>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<ul>
+<li>Add more images</li>
+<li>Methods used?</li>
+<li>Software (MATLAB)</li>
+<li>Learnings</li>
+<li>Add some screenshots pls</li>
+<li>Add a video of me talking about this project</li>
+<li>Share code on GitHub?</li>
+</ul>
 </div>
 </div>
 </div>
