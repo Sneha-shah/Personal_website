@@ -33,7 +33,7 @@ The initial plan was to manually mark edge points of jaw and calculate volume of
 
 ![image](../../images/jaw-volume-calculation/bone.jpeg)
 
-**Stage 3:** Finding volume by adding voxels set to 1 
+**Stage 3:** Once these steps were done, the volume of the remaining black and white image was to be found. The simplistic approach implemented was to find the number voxels set to 1. Without an idea of what value could be expected, it was unclear how accurate the results were. Once the pre and post scans were both available, we noticed that the volume difference calculated was erratic; ranging from 5 mm^2 to 2000 mm^2. A few values were also negative, proving that we needed more accurate volume calculation.
 
 **Stage 4:** Getting the post scan and realising volume difference is very erratic
 
