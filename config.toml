@@ -131,6 +131,16 @@ expire_days = 2
 # link = "https://www.instagram.com/thatssnehaforyou/"
 
 [[params.social]]
+title = "email"
+icon = "ti-email" # themify icon : https://themify.me/themify-icons
+link = "https://sneha-shah.github.io/contact/"
+
+# [[params.social]]
+# title = "resume"
+# icon = "ti-cv" # themify icon : https://themify.me/themify-icons
+# link = "https://sneha-shah.github.io/cv/"
+
+[[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/Sneha-shah/"
