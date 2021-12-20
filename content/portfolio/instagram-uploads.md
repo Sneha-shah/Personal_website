@@ -8,15 +8,13 @@ image: "images/instagram-uploads/piano.jpg"
 
 # meta description
 description: "short piano recordings originally created for instagram"
+priority: 8
 
 # taxonomies
 categories: 
   - "Music"
 tags:
   - "Music"
-  - "Piano"
-  - "Hobby"
-  - "Instagram"
   
 HideDate: true
 

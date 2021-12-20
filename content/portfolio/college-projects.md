@@ -8,13 +8,13 @@ image: "images/college-projects/BirdCall.jpeg"
 
 # meta description
 description: "Automatic Classification of Bird Calls, Voice Scrambler and Unscrambler"
+priority: 7
 
 # taxonomies
 categories: 
   - "Signal Processing"
 tags:
   - "MATLAB"
-  - "DSP"
   - "Signal Processing"
   
 HideDate: true

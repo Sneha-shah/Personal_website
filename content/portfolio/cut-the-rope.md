@@ -8,6 +8,7 @@ image: "images/cut-the-rope/main.png"
 
 # meta description
 description: "Mini imitation of the popular game Cut The Rope using python"
+priority: 9
 
 # taxonomies
 categories: 
@@ -15,8 +16,6 @@ categories:
 tags:
   - "Python"
   - "Game"
-  - "PyGame"
-  - "Software"
 
 # post type
 type: "post"

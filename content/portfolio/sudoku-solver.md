@@ -8,6 +8,7 @@ image: "images/sudoku-solver/main.png"
 
 # meta description
 description: "Sudoku Solver GUI written in python "
+priority: 10
 
 # taxonomies
 categories: 
@@ -15,8 +16,6 @@ categories:
 tags:
   - "Python"
   - "Game"
-  - "tkinter"
-  - "software"
 
 # post type
 type: "post"

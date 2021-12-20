@@ -8,17 +8,14 @@ image: "images/performances/synchro.png"
 
 # meta description
 description: "Performances as part of Synchronoise Acapella group"
+priority: 6
 
 # taxonomies
 categories: 
   - "Music"
 tags:
   - "Music"
-  - "Acapella"
-  - "Piano"
-  - "Band"
   - "Performance"
-  - "Recording"
   
 HideDate: true
 

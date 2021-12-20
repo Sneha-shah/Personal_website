@@ -8,6 +8,7 @@ image: "images/note-identifier/Note_Identifier.jpg"
 
 # meta description
 description: "Hobby project to identify a real time sung note"
+priority: 3
 
 # taxonomies
 categories: 
@@ -15,7 +16,6 @@ categories:
 tags:
   - "MATLAB"
   - "Signal Processing"
-  - "DSP"
   - "Music"
 
 # post type

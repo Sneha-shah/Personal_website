@@ -8,16 +8,14 @@ image: "images/performances/band.jpg"
 
 # meta description
 description: "Performances as part of Music Society"
+priority: 4
 
 # taxonomies
 categories: 
   - "Music"
 tags:
   - "Music"
-  - "Piano"
-  - "Band"
   - "Performance"
-  - "Recording"
   
 HideDate: true
 

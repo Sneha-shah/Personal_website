@@ -8,6 +8,7 @@ image: "images/tuning-project/tuning.jpg"
 
 # meta description
 description: "Studied automatic piano tuning as a part of Bachelor's thesis at the Acoustics and Signal Processing Lab, Aalto University, Finland. https://www.researchgate.net/publication/339995979_Automatic_Tuning_of_High_Piano_Tones"
+priority: 1
 
 # taxonomies
 categories: 
@@ -16,11 +17,8 @@ tags:
   - "Music"
   - "MATLAB"
   - "Signal Processing"
-  - "DSP"
-  - "Thesis"
-
 # post type
-type: "featured"
+type: "post"
 ---
 ![image](../../images/tuning-project/tuning.jpg)
 

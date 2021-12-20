@@ -8,15 +8,14 @@ image: "images/performances/piano.png"
 
 # meta description
 description: "Performances on piano"
+priority: 2
 
 # taxonomies
 categories: 
   - "Music"
 tags:
   - "Music"
-  - "Piano"
   - "Performance"
-  - "Recording"
   
 HideDate: true
 
