@@ -12,7 +12,7 @@ priority: 4
 
 # taxonomies
 categories: 
-  - "Music"
+  - "Performance"
 tags:
   - "Music"
   - "Performance"

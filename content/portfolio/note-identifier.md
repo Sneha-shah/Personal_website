@@ -17,6 +17,7 @@ tags:
   - "MATLAB"
   - "Signal Processing"
   - "Music"
+  - "Research"
 
 # post type
 type: "post"

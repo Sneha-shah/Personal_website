@@ -12,7 +12,7 @@ priority: 10
 
 # taxonomies
 categories: 
-  - "Python"
+  - "Software Programming"
 tags:
   - "Python"
   - "Game"

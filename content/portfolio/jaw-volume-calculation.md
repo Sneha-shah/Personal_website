@@ -16,12 +16,13 @@ categories:
 tags:
   - "MATLAB"
   - "Signal Processing"
+  - "Research"
   
 # post type
 type: "post"
 ---
 
-This project was done as part of a research on volume expansion of a jaw after using arch expansion treatment. Worked with Doctor Pooja Radhakrishnan (add link) to identify the volume of a jaw from a 3D medical scan.
+This project was done as part of a research on volume expansion of a jaw after using arch expansion treatment. Worked with Doctor Pooja Radhakrishnan to identify the volume of a jaw from a 3D medical scan.
 
 
 **Stage 0:** 
@@ -35,7 +36,7 @@ The initial plan was to manually mark edge points of jaw and calculate volume of
 
 **Stage 3:** Once these steps were done, the volume of the remaining black and white image was to be found. The simplistic approach implemented was to find the number voxels set to 1. Without an idea of what value could be expected, it was unclear how accurate the results were. Once the pre and post scans were both available, we noticed that the volume difference calculated was erratic; ranging from 5 mm^2 to 2000 mm^2. A few values were also negative, proving that we needed more accurate volume calculation.
 
-**Stage 4:** The first thing I checked is the alignment of the pre and post scans, which turned out to be misaligned. And so I used registration to align the two images before the thresholding and segmenting steps conducted on each image with the same threshold values and cropping planes. While this improved the accuracy somewhat, we still received some negative and erratic values.
+**Stage 4:** The first thing I noticed is that the pre and post scans were misaligned. And so I used registration to align the two images before the thresholding and segmenting steps conducted on each image with the same threshold values and cropping planes. While this improved the accuracy somewhat, we still received some negative and erratic values.
 
 **Stage 6:** At this stage, I felt the need of expert guidance to move forward. I did feel that the thresholding method could be improved, as each image had different histograms. I contacted [Professor Venkatesan Rajinikanth](https://www.researchgate.net/profile/Venkatesan-Rajinikanth-2) and informed him of our situation. He not only provided an improved thresholding algorithm, which was already helpful, but also suggested I use the Gray Level Co-Occurrence Matrix (GLCM) method that extracts details about texture, to find the volume of the bone. 
 
