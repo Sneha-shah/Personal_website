@@ -46,5 +46,11 @@ type: "post"
 - The results suggested that listeners do not rely on the fine details in an HRTF's spatial structure and imply that some of the theoretically-derived bounds for HRTF sampling may be exceeding perceptual requirements.
 - Checkout the project report [here](https://drive.google.com/file/d/1g7MiJ1o1CP1_Pg8A5lOcmOd_IQEHojY6/view?usp=sharing)
 
+#### Language Generator
+**As part of audited Machine Learning course**
+- Used Markov Chains to predict the next character in a paragraph based on the previous 40 characters.
+- Checkout project on github [here](https://github.com/Sneha-shah/language-generator)
+
+
 
 
