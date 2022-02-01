@@ -28,18 +28,18 @@ Project link: https://drive.google.com/file/d/1CuilJbOxzlOl5AoV5rRIbKWK5Af5TV9V/
 Source code and screenshots on github: https://github.com/Sneha-shah/Cut-the-rope
 
 ##### Screenshots of game
-###### Instructions
-![image](../../images/cut-the-rope/instructions.png")
 ###### Home Page
-![image](../../images/cut-the-rope/main.png")
+![image](../../images/cut-the-rope/main.png)
 ###### Level Select
-![image](../../images/cut-the-rope/level-select.png")
+![image](../../images/cut-the-rope/level-select.png)
 ###### Level 1
-![image](../../images/cut-the-rope/level1.png")
+![image](../../images/cut-the-rope/level1.png)
 ###### Level 2
-![image](../../images/cut-the-rope/level2.png")
+![image](../../images/cut-the-rope/level2.png)
 ###### Level 3
-![image](../../images/cut-the-rope/level3.png")
+![image](../../images/cut-the-rope/level3.png)
 ###### Game Over
-![image](../../images/cut-the-rope/game-over.png")
+![image](../../images/cut-the-rope/game-over.png)
+###### Instructions
+![image](../../images/cut-the-rope/instructions.png)
 
