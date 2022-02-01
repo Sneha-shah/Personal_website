@@ -8,6 +8,7 @@ image: "images/carrot-flute/main.jpg"
 
 # meta description
 description: "Rudimentary flute carved out of a carrot"
+priority: 8
 
 # taxonomies
 categories: 
@@ -15,6 +16,8 @@ categories:
 tags:
   - "Music"
   - "Performance"
+
+HideDate: true
 
 # post type
 type: "post"
