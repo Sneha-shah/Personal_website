@@ -22,10 +22,12 @@ type: "post"
 
 ---
 
-This is a mini imitation of the popular android game Cut The Rope using python. The game was created in high school for my 12th grade Computer Science project. It uses pygame for graphics and pictures from the original cut the rope to create our own game with 3 levels. I have used object oriented programming.
+This is a mini imitation of the popular android game Cut The Rope using python. The game was created in high school for my 12th grade Computer Science project. 
 
-Project link: https://drive.google.com/file/d/1CuilJbOxzlOl5AoV5rRIbKWK5Af5TV9V/view?usp=sharing
-Source code and screenshots on github: https://github.com/Sneha-shah/Cut-the-rope
+It is a complex project, that required simulation of the laws of physics in an artificial environment; concepts such **pendulum motion and damping**, and **gravitation**. I used pygame for graphics and pictures from the original cut the rope to create our own game with 3 levels. I have also used Object Oriented Programming to define objects in the game.
+
+**Project link**: https://drive.google.com/file/d/1CuilJbOxzlOl5AoV5rRIbKWK5Af5TV9V/view?usp=sharing
+**Source code and screenshots on github**: https://github.com/Sneha-shah/Cut-the-rope
 
 ##### Screenshots of game
 ###### Home Page
