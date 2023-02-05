@@ -22,4 +22,7 @@ I am a trained western classical pianist and amateur singer. I did my Bachelorâ€
 Outside of work, I am an active sportsperson. I was part of my University Football team and participated in various other sports at the school level. Lately, my interests have been drawn to rock climbing, and after the olympics I'm very keen on improving my abilities in this area. I regularly go for treks and hope to try outdoor bouldering as well soon.
 
 
+My latest projects can be viewed on [GitHub](https://github.com/Sneha-shah) and my [Resume](https://drive.google.com/file/d/1y7ZEeYqI8DVXFgLuGBUzphfAP0wibP_V/view?usp=sharing). You can also browse my website to see some of my projects. You can see my projects in the categories [performances](https://sneha-shah.github.io/categories/performance/), [signal processing](https://sneha-shah.github.io/categories/signal-processing/) (music and audio projects) and [software programming](https://sneha-shah.github.io/categories/software-programming/). 
+
+
 Feel free to mail or message me if you want to collaborate or talk about any of my work :)
